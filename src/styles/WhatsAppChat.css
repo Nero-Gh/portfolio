@@ -1,0 +1,70 @@
+.floating-whatsapp {
+  z-index: 60 !important;
+}
+
+.whatsapp-wrapper {
+  z-index: 60 !important;
+}
+
+.floating-whatsapp .floating-whatsapp-button {
+  background-color: #25d366 !important;
+  transition: all 0.3s ease !important;
+}
+
+.floating-whatsapp .floating-whatsapp-button:hover {
+  transform: scale(1.1) !important;
+  box-shadow: 0 8px 16px rgba(37, 211, 102, 0.3) !important;
+}
+
+.floating-whatsapp-avatar {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 25px !important;
+  object-fit: cover !important;
+}
+
+/* Dark mode styles */
+.dark .floating-whatsapp-container {
+  background-color: #1f2937 !important;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+.dark .floating-whatsapp-message {
+  background-color: #374151 !important;
+  color: #fff !important;
+}
+
+.dark .floating-whatsapp-popup {
+  background-color: #1f2937 !important;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+.dark .floating-whatsapp-header {
+  background-color: #25d366 !important;
+}
+
+.dark .floating-whatsapp-input {
+  background-color: #374151 !important;
+  color: #fff !important;
+  border: 1px solid #4b5563 !important;
+}
+
+.dark .floating-whatsapp-message-time {
+  color: #9ca3af !important;
+}
+
+/* Animation for the popup */
+.floating-whatsapp-popup {
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
