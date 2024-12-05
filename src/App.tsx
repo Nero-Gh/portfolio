@@ -1,19 +1,16 @@
-import { useTheme } from "./hooks/useTheme";
-import Header from "./components/layout/Header";
-import Hero from "./components/sections/Hero";
-import About from "./components/sections/About";
-import Projects from "./components/sections/Projects";
-import Contact from "./components/sections/Contact";
-import ParticleBackground from "./components/animations/ParticleBackground";
-import MouseFollower from "./components/animations/MouseFollower";
-import ScrollToTop from "./components/ui/ScrollToTop";
+import ParticleBackground from './components/animations/ParticleBackground';
+import MouseFollower from './components/animations/MouseFollower';
+import Header from './components/layout/Header';
+import Hero from './components/sections/Hero';
+import About from './components/sections/About';
+import Projects from './components/sections/Projects';
+import Contact from './components/sections/Contact';
+import ScrollToTop from './components/ui/ScrollToTop';
 import WhatsAppChat from './components/WhatsAppChat';
 import "./styles/index.css";
 import './styles/WhatsAppChat.css';
 
 function App() {
-  const { theme } = useTheme();
-
   return (
     <div className="min-h-screen bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark">
       <ParticleBackground />
