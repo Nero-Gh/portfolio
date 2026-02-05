@@ -4,6 +4,16 @@ import { useState } from "react";
 
 const projects = [
   {
+    title: "Database Canvas Schema",
+    description:
+      "An interactive platform for creating and managing database schemas. Users can design tables, define relationships, and visualize their database structure in a drag-and-drop canvas, making database planning intuitive and collaborative",
+    tags: ["React", "TypeScript", "Tailwind", "Email Js", "Framer motion"],
+    category: "enterprise",
+    image:
+      "https://res.cloudinary.com/hevo/images/c_scale,w_448,h_253,dpr_2.625/f_webp,q_auto:best/v1685872818/hevo-learn-1/quickdbd-ui/quickdbd-ui.png?_i=AA",
+    githubLink: "https://schemacanvas.netlify.app",
+  },
+  {
     title: "Supply Chain Traceability System",
     description:
       "Spearheaded frontend architecture using Angular to support features like role-based access control and dynamic user dashboards.",
@@ -42,6 +52,16 @@ const projects = [
     image:
       "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?q=80&w=2070&auto=format&fit=crop",
     githubLink: "https://github.com/nero-gh/amalitech-invoice-app",
+  },
+  {
+    title: "Amalitech Website",
+    description:
+      "Delivered end-to-end WordPress solution using Elementor, ensuring professional and functional design tailored to client needs.",
+    tags: ["WordPress", "Elementor", "PHP", "CSS"],
+    category: "wordpress",
+    image:
+      "https://thedigitalfinder.com/wp-content/uploads/2023/12/Amalitech.jpg",
+    githubLink: "https://amalitech.com/",
   },
   {
     title: "Dream Global Consult Ghana",
