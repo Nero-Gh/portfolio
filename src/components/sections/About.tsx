@@ -1,31 +1,75 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-const skills = {
+export const skills = {
   technical: [
-    { name: "Angular TS", level: 90 },
-    { name: "React JS/TS", level: 90 },
-    { name: "WordPress", level: 85 },
-    { name: "Shopify Hydrogen", level: 85 },
-    { name: "HTML", level: 95 },
-    { name: "CSS/SCSS", level: 90 },
-    { name: "TailwindCSS", level: 90 },
-    { name: "JavaScript", level: 90 },
+    // QA
+    { name: "Manual Testing (Regression, Smoke, UAT, Exploratory)", level: 85 },
+    { name: "API Testing (Postman, Swagger, Insomnia)", level: 80 },
+    { name: "Defect Tracking (Jira, Xray)", level: 80 },
+    {
+      name: "Test Documentation (Test Plans, Test Cases, Test Reports)",
+      level: 80,
+    },
+    { name: "Playwright (E2E Automation)", level: 75 },
+    { name: "Jest / Jasmine (Unit Testing)", level: 75 },
+
+    // Frontend
+    { name: "Angular (Signals, RxJS, NgRx, Standalone APIs)", level: 85 },
+    { name: "React (Hooks, Context, Zustand)", level: 85 },
+    { name: "Next.js (App Router)", level: 75 },
+    { name: "Remix", level: 70 },
+    { name: "WordPress", level: 80 },
+    { name: "HTML5", level: 90 },
+    { name: "CSS3 / SCSS", level: 85 },
+    { name: "Tailwind CSS", level: 85 },
+    { name: "JavaScript (ES6+)", level: 85 },
     { name: "TypeScript", level: 85 },
-    { name: "Figma", level: 80 },
-    { name: "Photoshop", level: 75 },
+
+    // Backend / APIs
+    { name: "NestJS (REST APIs, Guards, Pipes, DTOs, Validation)", level: 70 },
+    { name: "Supabase", level: 70 },
+    { name: "RESTful API Design", level: 70 },
+
+    // State + Data
+    { name: "NgRx Store & Effects", level: 75 },
+    { name: "TanStack React Query", level: 70 },
+    { name: "TanStack Router", level: 70 },
+    { name: "Zustand", level: 75 },
+    { name: "Zod Validation", level: 70 },
+
+    // Performance / Best Practices
+    { name: "Web Performance Optimization", level: 75 },
+    { name: "SEO Optimization", level: 75 },
+    { name: "Accessibility (ARIA, Semantic HTML)", level: 75 },
+    { name: "Modular / Clean Architecture", level: 75 },
+
+    // UI / Design
+    { name: "Figma", level: 75 },
+    { name: "Photoshop", level: 65 },
+    { name: "Canva", level: 70 },
+    { name: "Illustrator", level: 60 },
   ],
+
   tools: [
-    "Git",
-    "GitHub",
-    "Jira",
-    "Confluence",
+    // QA + API tools
     "Postman",
     "Insomnia",
-    "Vite",
-    "NPM",
-    "VSCode",
-    "IntelliJ",
+    "Swagger",
+
+    // Tracking + Docs
+    "Jira",
+    "Xray",
+    "Confluence",
+
+    // Dev tools
+    "Git",
+    "GitHub",
+    "Docker (basic)",
+
+    // Deployment / CI
+    "Netlify",
+    "Vercel",
   ],
 };
 
@@ -46,9 +90,11 @@ const About = () => {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">About Me</h2>
           <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            I'm a passionate frontend developer with expertise in modern web
-            technologies. I create responsive, user-friendly applications with a
-            focus on performance and accessibility.
+            Passionate frontend developer and QA enthusiast, skilled in building
+            responsive, high-performance, and accessible web applications. I
+            combine hands-on experience in modern web technologies with
+            expertise in testing and automation to deliver reliable,
+            user-friendly, and maintainable solutions.
           </p>
 
           <motion.div
