@@ -77,7 +77,7 @@ const projects = [
     title: "MGA Consulting Ghana",
     description:
       "Created a modern marketing website using WordPress and Divi, focusing on user experience and conversion optimization.",
-    tags: ["WordPress", "PHP", "CSS", "HTML", "Javascript"],
+    tags: ["WordPress", "Drupal", "CSS", "HTML", "Javascript"],
     category: "wordpress",
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",
