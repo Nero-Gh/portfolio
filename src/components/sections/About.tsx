@@ -3,6 +3,20 @@ import { useInView } from "react-intersection-observer";
 
 export const skills = {
   technical: [
+    // Frontend
+    { name: "Angular (Signals, RxJS, NgRx, Standalone APIs)", level: 85 },
+    { name: "React (Hooks, Context, Zustand)", level: 85 },
+    { name: "Next.js (App Router)", level: 75 },
+    { name: "Remix", level: 70 },
+    { name: "WordPress", level: 80 },
+    { name: "Drupal", level: 80 },
+    { name: "Shopify", level: 80 },
+    { name: "HTML5", level: 90 },
+    { name: "CSS3 / SCSS", level: 85 },
+    { name: "Tailwind CSS", level: 85 },
+    { name: "JavaScript (ES6+)", level: 85 },
+    { name: "TypeScript", level: 85 },
+
     // QA
     { name: "Manual Testing (Regression, Smoke, UAT, Exploratory)", level: 85 },
     { name: "API Testing (Postman, Swagger, Insomnia)", level: 80 },
@@ -13,18 +27,6 @@ export const skills = {
     },
     { name: "Playwright (E2E Automation)", level: 75 },
     { name: "Jest / Jasmine (Unit Testing)", level: 75 },
-
-    // Frontend
-    { name: "Angular (Signals, RxJS, NgRx, Standalone APIs)", level: 85 },
-    { name: "React (Hooks, Context, Zustand)", level: 85 },
-    { name: "Next.js (App Router)", level: 75 },
-    { name: "Remix", level: 70 },
-    { name: "WordPress", level: 80 },
-    { name: "HTML5", level: 90 },
-    { name: "CSS3 / SCSS", level: 85 },
-    { name: "Tailwind CSS", level: 85 },
-    { name: "JavaScript (ES6+)", level: 85 },
-    { name: "TypeScript", level: 85 },
 
     // Backend / APIs
     { name: "NestJS (REST APIs, Guards, Pipes, DTOs, Validation)", level: 70 },
@@ -61,6 +63,9 @@ export const skills = {
     "Jira",
     "Xray",
     "Confluence",
+
+    "S3",
+    "Dokploy(Self hosting)",
 
     // Dev tools
     "Git",
